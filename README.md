@@ -118,6 +118,8 @@ renwu-qianqiu/
 │   │   └── FigureDetail.tsx
 │   └── data/                    # 人物数据
 ├── functions/                   # Edge Functions
+├── prompts/                     # Prompt 赛道作品
+│   └── 人物千秋.md              # 建站提示词
 ├── skills/                      # 人物档案馆 Skill（Skills 赛道）
 │   └── 人物档案馆/
 │       ├── README.md
@@ -161,6 +163,19 @@ renwu-qianqiu/
 4. 部署至 EdgeOne Pages
 
 详见 [skills/人物档案馆/README.md](skills/人物档案馆/README.md)。
+
+---
+
+## Prompt 赛道：建站提示词
+
+本项目同时也是 Prompt 赛道作品。`prompts/人物千秋.md` 是一份可直接复制到 AI 编程工具中使用的建站提示词，包含完整的技术栈、组件设计、样式规范、Edge Functions API 部署等全部指令。
+
+**使用方式**：
+1. 打开支持代码生成的 AI 工具（WorkBuddy、Claude Code 等）
+2. 复制 [prompts/人物千秋.md](prompts/人物千秋.md) 中的完整内容
+3. 粘贴给 AI，一句话即可生成整个网站并部署到 EdgeOne Pages
+
+详见 [prompts/人物千秋.md](prompts/人物千秋.md)。
 
 ---
 

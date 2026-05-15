@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1814"/>
+      <stop offset="100%" stop-color="#0F1419"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)" rx="8"/>
+  <!-- Autumn leaves -->
+  <g opacity="0.06" fill="#8B6F47">
+    <ellipse cx="80" cy="90" rx="30" ry="10" transform="rotate(-30 80 90)"/>
+    <ellipse cx="320" cy="120" rx="20" ry="8" transform="rotate(20 320 120)"/>
+    <ellipse cx="50" cy="350" rx="25" ry="8" transform="rotate(-15 50 350)"/>
+  </g>
+  <!-- Ink wash mountain -->
+  <path d="M0 430 Q60 380 120 400 Q180 350 240 370 Q300 340 360 360 L400 340 L400 500 L0 500Z" fill="#8B6F47" opacity="0.06"/>
+  <!-- Figure - stooped, old, worried -->
+  <g transform="translate(170, 180)">
+    <!-- Bent body -->
+    <path d="M35 160 Q25 120 30 80 Q35 50 35 35 Q45 15 55 35 Q55 60 50 80 Q55 120 45 160Z" stroke="#8B6F47" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Robe, worn -->
+    <path d="M45 160 Q55 200 35 240 Q25 260 15 280 L75 280 Q65 260 55 240 Q35 200 45 160Z" stroke="#8B6F47" stroke-width="1.5" fill="#8B6F47" opacity="0.06"/>
+    <!-- Head (bowed) -->
+    <ellipse cx="38" cy="28" rx="16" ry="20" fill="#8B6F47" opacity="0.25"/>
+    <!-- Walking stick -->
+    <line x1="60" y1="100" x2="75" y2="270" stroke="#8B6F47" stroke-width="1.5" opacity="0.4"/>
+    <!-- Thin arm holding stick -->
+    <path d="M50 90 Q60 100 62 110" stroke="#8B6F47" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+  <!-- Seal -->
+  <rect x="290" y="400" width="60" height="60" rx="4" fill="none" stroke="#8B6F47" stroke-width="1" opacity="0.5"/>
+  <text x="320" y="440" text-anchor="middle" fill="#8B6F47" font-size="24" font-family="serif" opacity="0.7">子美</text>
+</svg>

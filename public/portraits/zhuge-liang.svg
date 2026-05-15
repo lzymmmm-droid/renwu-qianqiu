@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1410"/>
+      <stop offset="100%" stop-color="#0F1419"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)" rx="8"/>
+  <!-- Stars/Night sky -->
+  <g fill="#5B6B4D" opacity="0.15">
+    <circle cx="50" cy="60" r="1.5"/>
+    <circle cx="120" cy="40" r="1"/>
+    <circle cx="200" cy="70" r="2" opacity="0.3"/>
+    <circle cx="300" cy="50" r="1.2"/>
+    <circle cx="350" cy="90" r="0.8"/>
+    <circle cx="80" cy="100" r="1"/>
+    <circle cx="270" cy="30" r="1.5" opacity="0.2"/>
+  </g>
+  <!-- Star chart / Bagua hint -->
+  <circle cx="200" cy="80" r="60" stroke="#5B6B4D" stroke-width="0.5" fill="none" opacity="0.06"/>
+  <line x1="200" y1="20" x2="200" y2="140" stroke="#5B6B4D" stroke-width="0.5" opacity="0.04"/>
+  <line x1="140" y1="80" x2="260" y2="80" stroke="#5B6B4D" stroke-width="0.5" opacity="0.04"/>
+  <!-- Figure - seated, composed -->
+  <g transform="translate(145, 170)">
+    <!-- Seated figure in formal robes -->
+    <path d="M50 160 Q40 120 45 80 Q48 50 50 35 Q58 18 66 35 Q65 60 62 80 Q58 120 55 160Z" stroke="#5B6B4D" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Robe spreading on ground -->
+    <path d="M35 160 L85 160 L95 230 Q60 240 25 230Z" stroke="#5B6B4D" stroke-width="1.2" fill="#5B6B4D" opacity="0.05"/>
+    <!-- Wide sleeves -->
+    <path d="M40 80 Q20 90 15 110" stroke="#5B6B4D" stroke-width="1.5" fill="none" opacity="0.35"/>
+    <path d="M70 80 Q90 90 95 110" stroke="#5B6B4D" stroke-width="1.5" fill="none" opacity="0.35"/>
+    <!-- Taoist headdress -->
+    <path d="M40 20 Q50 8 60 20" stroke="#5B6B4D" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M35 18 Q50 25 65 18" stroke="#5B6B4D" stroke-width="1" fill="none" opacity="0.3"/>
+    <!-- Head -->
+    <ellipse cx="52" cy="30" rx="17" ry="20" fill="#5B6B4D" opacity="0.2"/>
+    <!-- Fan in hand -->
+    <path d="M70 100 Q80 85 90 95 Q85 105 70 100Z" fill="none" stroke="#7B9B6D" stroke-width="1" opacity="0.4"/>
+    <line x1="70" y1="100" x2="75" y2="120" stroke="#5B6B4D" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  <!-- Seal -->
+  <rect x="290" y="400" width="60" height="60" rx="4" fill="none" stroke="#5B6B4D" stroke-width="1" opacity="0.5"/>
+  <text x="320" y="440" text-anchor="middle" fill="#5B6B4D" font-size="24" font-family="serif" opacity="0.7">孔明</text>
+</svg>
